@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ color {
+    color: hsl(210, 10%, 33%);
+    color: hsl(201, 11%, 66%);
+    color: hsl(171, 66%, 44%);
+    color: hsl(233, 100%, 69%);
+ }
+
+ body {
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', sans-serif;
+ }
+/*=====================header=======================*/
+ header {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+ .logo {
+   background-image: url(/images/bg-header-desktop.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 100px 1000px;
+
+ }
+ .heading {
+   text-align: center;
+   background-image: none;
+   margin: 30px;
+ }
+ button{
+   border: none;
+   border-radius: 50px;
+   padding: 10px;
+   margin: 5px;
+   color: #fff;
+   width: 150px;
+   
+ }
+ .btn1 {
+   background-color: hsl(171, 66%, 44%);
+   box-shadow: 0 4px 8px 0 hsl(171, 66%, 44%);
+ }
+ .btn2 {
+   background-color: hsl(233, 100%, 69%);
+ }
+
